@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.box {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: navyblue; 
+    padding: 5px 10px;
+    color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+@media (min-width: 768px) {
+    .box {
+        width: 49%; 
+    }
+
+    .box:nth-child(3) {
+        width: 100%; 
+    }
+}
+
+@media (min-width: 992px) {
+    .box {
+        width: 33.33%; 
+    }
+}
