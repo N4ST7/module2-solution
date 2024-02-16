@@ -1,49 +1,42 @@
-body {
-    margin: 0;
-    background-color: whitesmoke;
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar{
+
+border: none;
+background-color: black;
+color: #61122F;
+}
+body{
+	background-color: brown;
+	color: white;
+}
+.glyphicon{
+	font-size: 30px;
+	color:#61122F; 
 }
 
-h1 {
-    text-align: center;
+.center{
+	width: 90%;
+	background-color: grey;
+
+}
+.container
+{
+	background-color: darkgray;
+}
+.text-center{
+	font-size: 30px;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
+h2{
+	text-align: center;
 }
-
-.box {
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid #000;
-    margin-bottom: 20px;
-    position: relative;
+#myNavbar ul li a {
+	color: #61122F;
 }
-
-.title {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: navy; 
-    padding: 5px 10px;
-    color: #f20044;
-    border-bottom: 1px solid #000;
-}
-
-@media (min-width: 768px) {
-    .box {
-        width: 49%; 
-    }
-
-    .box:nth-child(3) {
-        width: 100%; 
-    }
-}
-
-@media (min-width: 992px) {
-    .box {
-        width: 33.33%; 
-    }
+.navbar-brand{
+font-size: 30px;	
 }
